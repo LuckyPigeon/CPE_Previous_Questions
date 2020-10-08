@@ -27,7 +27,7 @@ class CpePreviousSpider(scrapy.Spider):
         one_star_id = [x.strip('UVA') for x in one_star_id]
 
         for index in range(len(one_star_id)): # 遍歷所有題目，設定 index 為0~題數
-            item = CpeCrawlerItem() # item 為 CpeCrawlerItem 物件，該物件定義所需要爬取的項目
+            item = CpeCrawlerItem() # item 為 CpeCrawlerItem 物件，該物件定義爬取項目的欄位名稱 ( Scheme )
 
             item['id'] = one_star_id[index] # 將物件的 id 設為 UVA 題目編號
 
