@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace std;
+using namespace std; // hello 
 int condition(int n, int length)
 {
     if (n == 1)
