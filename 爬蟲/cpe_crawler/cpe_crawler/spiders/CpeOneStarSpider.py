@@ -40,7 +40,7 @@ class CpePreviousSpider(scrapy.Spider):
     def parseCode(self, response):
         FOLDER_BASE = 'D:\\CPE\\一星題\\'   # output 根目錄名稱
         current_dir = FOLDER_BASE + response.meta['question']['id'] + '\\' # 各題目的目錄名稱
-        code_name = os.path.splitext(os.path.basename(response.meta['question']['id']))[0] + '.cpp' # 生成題目 code 的 cpp 檔名
+        code_name = response.meta['question']['id'] + '.cpp' # 生成題目 code 的 cpp 檔名
         article_content = response.xpath('//div[@id="article-content-inner"]').extract() # 選取 id 為 article-content-inner 的 div 標籤
         url = 'https://onlinejudge.org/external/' + response.meta['question']['id'][:-2] + '/' + response.meta['question']['id'] + '.pdf'
         # 爬取 pdf 檔，格式為 ( url ) + ( 題目 id %100 ) + ( 題目 id.pdf )
