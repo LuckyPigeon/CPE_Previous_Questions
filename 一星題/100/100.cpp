@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream> // 註解 hacktoberfest 2020
 using namespace std;
 int condition(int n, int length)
 {
