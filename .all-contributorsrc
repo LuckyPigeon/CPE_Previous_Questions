@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "LuckyPigeon",
+      "name": "Pigeon",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/32315294?v=4",
+      "profile": "https://github.com/LuckyPigeon",
+      "contributions": [
+        "maintenance"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "CPE_Previous_Questions",
+  "projectOwner": "LuckyPigeon",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}

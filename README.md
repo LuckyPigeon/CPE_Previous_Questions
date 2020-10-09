@@ -1,4 +1,7 @@
 # CPE_Previous_Questions
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 CPE 的歷屆考題 📃📃📃
 
@@ -26,3 +29,22 @@ CPE 的歷屆考題 📃📃📃
 ## 如何提交回饋 🤔🤔🤔
 
 同學們如果覺得有什麼新想法，歡迎寫信到 s109321515@mail1.ncnu.edu.tw，或者上 404 研究室找沛群助教
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/LuckyPigeon"><img src="https://avatars0.githubusercontent.com/u/32315294?v=4" width="100px;" alt=""/><br /><sub><b>Pigeon</b></sub></a><br /><a href="#maintenance-LuckyPigeon" title="Maintenance">🚧</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
