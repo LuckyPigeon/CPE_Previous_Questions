@@ -1,6 +1,6 @@
 # CPE_Previous_Questions
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 CPE 的歷屆考題 📃📃📃
@@ -40,6 +40,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/LuckyPigeon"><img src="https://avatars0.githubusercontent.com/u/32315294?v=4" width="100px;" alt=""/><br /><sub><b>Pigeon</b></sub></a><br /><a href="#maintenance-LuckyPigeon" title="Maintenance">🚧</a></td>
+    <td align="center"><a href="http://snsd0805.github.io"><img src="https://avatars1.githubusercontent.com/u/31038723?v=4" width="100px;" alt=""/><br /><sub><b>snsd0805</b></sub></a><br /><a href="https://github.com/LuckyPigeon/CPE_Previous_Questions/commits?author=snsd0805" title="Code">💻</a> <a href="https://github.com/LuckyPigeon/CPE_Previous_Questions/commits?author=snsd0805" title="Documentation">📖</a></td>
   </tr>
 </table>
 

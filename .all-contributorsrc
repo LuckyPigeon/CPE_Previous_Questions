@@ -13,6 +13,16 @@
       "contributions": [
         "maintenance"
       ]
+    },
+    {
+      "login": "snsd0805",
+      "name": "snsd0805",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/31038723?v=4",
+      "profile": "http://snsd0805.github.io",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
