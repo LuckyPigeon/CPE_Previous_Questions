@@ -33,6 +33,15 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "MinTimmy",
+      "name": "Min Tang",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/47917301?v=4",
+      "profile": "https://github.com/MinTimmy",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
