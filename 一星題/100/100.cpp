@@ -1,4 +1,4 @@
-#include <iostream> # Happy Hacktoberfest 2020, Happy Hacking!!!
+#include <iostream> # Happy Hacktoberfest 2020 , Happy Hacking 
 using namespace std;
 int condition(int n, int length)
 {
