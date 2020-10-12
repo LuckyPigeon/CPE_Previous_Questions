@@ -3,16 +3,12 @@ https://uva.onlinejudge.org/index.php?Itemid=8&category=12&option=com_onlinejudg
 using namespace std;
 int main()
 {
-  int v,t;
-  while(cin>>v>>t)
+  int v,t;                                  // 物理的 v 和 t
+  while(cin>>v>>t)                          // 輸入 v 和 t
   {
     if(-100<=v && v<=100 && 0<=t && t<=200)
     {
-      cout<<v*2*t<<endl;
+      cout<<v*2*t<<endl;                  //速度公式 H = v * t，題目說輸出 2 倍時間可以跑的距離
     }
   }
 }
-
-
-���d�ߨ�LCPE�D�ئp�U��
-http://jennaweng0621.pixnet.net/blog/category/6372301
