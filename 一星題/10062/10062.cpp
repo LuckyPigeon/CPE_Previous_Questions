@@ -7,9 +7,10 @@ using namespace std;
 struct word{
  int code, time;                           // code 代表 char 的 ASCII code，time 代表出現次數
 };
-                                           // 功能: std::sort 的 compare func
-                                           // 輸入:  a 、 b，兩個要比較的 struct word
-                                           // 輸出: std::sort 的 cmp func 基本上只需要考慮回傳 < 的部分
+
+// 功能: std::sort 的 compare func
+// 輸入:  a 、 b，兩個要比較的 struct word
+// 輸出: std::sort 的 cmp func 基本上只需要考慮回傳 < 的部分
 bool cmp(struct word a, struct word b) {
  if(a.time != b.time)
   return a.time < b.time;
