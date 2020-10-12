@@ -1,5 +1,3 @@
-// https://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&problem=235
-
 // 本題其實就是考 bubble sort
 #include <stdio.h>
 int main()
