@@ -1,8 +1,11 @@
-#include <iostream>
+#include <iostream> // 
 #include <string>
 #include <stdio.h>
 using namespace std;
 
+// 功能： 把字元 dire 轉換成數字（N = 0, E = 1, S = 2, W = 3）
+// 輸入： 需傳入 dire 字元
+// 回傳值： 整數型態
 int direction(char dire)
 {
   if (dire == 'N')
@@ -15,6 +18,9 @@ int direction(char dire)
     return 3;
 }
 
+// 功能： 交換 a 與 b 兩整數
+// 輸入： 需傳入 a 與 b 兩個整數指標
+// 回傳值： 無
 int move(int &x, int &y, int d)
 {
   if (d == 0)
@@ -28,6 +34,9 @@ int move(int &x, int &y, int d)
   return 0;
 }
 
+// 功能： 交換 a 與 b 兩整數
+// 輸入： 需傳入 a 與 b 兩個整數指標
+// 回傳值： 無
 int fallout(int x, int y, int right, int upper)
 {
   if (x == 0 || y == 0 || x > right || y > upper)
@@ -36,23 +45,26 @@ int fallout(int x, int y, int right, int upper)
     return 0;
 }
 
+// 功能： 交換 a 與 b 兩整數
+// 輸入： 需傳入 a 與 b 兩個整數指標
+// 回傳值： 無
 int main()
 {
-  int upper, right;
-  int map[105][105] = {};
-  cin >> right >> upper;
-  ++upper, ++right;
+  int upper, right; // upper 為上界邊界值 ， right 為右界邊界值
+  int map[105][105] = {}; // 設定地圖上右最高邊界值 105
+  cin >> right >> upper; // 輸入上右邊界值
+  ++upper, ++right; 
 
-  int x, y;
+  int x, y; // x 為機器人 x 座標位置，y 為機器人 y 座標位置
   while (cin >> x)
   {
-    char dire;
-    string op;
-    int lost = 0;
+    char dire; // dire 為機器人一開始面向方向 （N,S,E,W）
+    string op; // op 為機器人接下來的行動 （L,R,F）
+    int lost = 0; // lost 為判斷機器人是否出界
 
-    cin >> y >> dire;
-    cin >> op;
-    int d = direction(dire);
+    cin >> y >> dire; // 輸入機器人 y 座標位置，機器人一開始面向方向
+    cin >> op; // 輸入器人接下來的行動
+    int d = direction(dire); // d 為紀錄機器人目前面向的方向 （N = 0, E = 1, S = 2, W = 3）
     ++x, ++y;
 
     for (int i = 0; i < op.length(); i++)
