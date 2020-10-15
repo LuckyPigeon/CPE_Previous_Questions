@@ -32,6 +32,25 @@ CPE 的歷屆考題 📃📃📃
 
 同學們如果覺得有什麼新想法，歡迎寫信到 s109321515@mail1.ncnu.edu.tw，或者上 404 研究室找沛群助教
 
+## Template
+
+Hacktoberfest 2020 規則
+![](https://user-images.githubusercontent.com/32315294/95982949-6b49b880-0e53-11eb-8c21-5135748b2e0c.png)
+用 C++ 理解
+
+```cpp
+if(submitted_during_the_month_of_October && submitted_in_a_public_repo){
+    if(PR_is_labelled_as_hacktoberfest-by-a-maintainer || submitted-in-a-repo-with-the-hacktoberfest-topic){
+        if(The-PR-is-merged || The-PR-has-been-approve){
+            PRs-count=true;
+        }
+    }
+}
+else{
+    PRs-count=false;
+}
+```
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
