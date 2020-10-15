@@ -1,6 +1,6 @@
 # CPE_Previous_Questions
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 CPE 的歷屆考題 📃📃📃
@@ -46,6 +46,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/amy9032"><img src="https://avatars2.githubusercontent.com/u/57109003?v=4" width="100px;" alt=""/><br /><sub><b>amy9032</b></sub></a><br /><a href="https://github.com/LuckyPigeon/CPE_Previous_Questions/commits?author=amy9032" title="Code">💻</a> <a href="https://github.com/LuckyPigeon/CPE_Previous_Questions/commits?author=amy9032" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/MinTimmy"><img src="https://avatars1.githubusercontent.com/u/47917301?v=4" width="100px;" alt=""/><br /><sub><b>Min Tang</b></sub></a><br /><a href="https://github.com/LuckyPigeon/CPE_Previous_Questions/commits?author=MinTimmy" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/efficacy38"><img src="https://avatars3.githubusercontent.com/u/60431808?v=4" width="100px;" alt=""/><br /><sub><b>efficacy38</b></sub></a><br /><a href="https://github.com/LuckyPigeon/CPE_Previous_Questions/commits?author=efficacy38" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/ruby5487"><img src="https://avatars1.githubusercontent.com/u/61654148?v=4" width="100px;" alt=""/><br /><sub><b>ruby5487</b></sub></a><br /><a href="https://github.com/LuckyPigeon/CPE_Previous_Questions/commits?author=ruby5487" title="Code">💻</a></td>
   </tr>
 </table>
 
