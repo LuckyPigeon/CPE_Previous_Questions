@@ -60,6 +60,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "eeeXun",
+      "name": "EXun",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/58657914?v=4",
+      "profile": "https://github.com/eeeXun",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
