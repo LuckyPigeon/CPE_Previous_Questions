@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+	long long int s, d;
+	long long int b;			
+	while (cin >> s >> d) {
+		b = s;
+		while ( ( b + s)*(b - s + 1) / 2 < d ) {
+			b++;  
+		}
+		cout << b << endl;
+	}
+	return 0;
+}
