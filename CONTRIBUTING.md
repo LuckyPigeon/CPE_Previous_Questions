@@ -50,7 +50,7 @@ int score = 10; // 儲存學生整數分數供 ave() 計算全班平均分數
 Example:
 
 ```cpp
-// 功能： Student 類別存取姓名及分數
+/* 功能： Student 類別存取姓名及分數 */
 class Student{
 public:
     int score; // 學生分數
