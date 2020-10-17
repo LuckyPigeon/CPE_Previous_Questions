@@ -6,35 +6,33 @@ https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_
 using namespace std;
 
 int main() {
- bool isJolly;
- int dataNum, *data;
- vector<int> minus;
-
- while(cin >> dataNum) { // ¬ö¿ı§Ç¦Cªø«×
-  // ªì©l¤Æ
-  data = new int [dataNum];
-  minus.clear();
-  isJolly = true;
-  // ¬ö¿ı¾ã¼Æ§Ç¦C
-  for(int d = 0; d < dataNum; d++)
-   cin >> data[d];
-  // ­pºâ¬Û¾F¤G¼Æ¤§®t­È
-  for(int i = 1; i < dataNum; i++)
-   minus.push_back(abs(data[i] - data[i - 1]));
-  // ±Æ§Ç
-  sort(minus.begin(), minus.end());
-  // §PÂ_¬O§_¬° Jolly jumper
-  for(int i = 0; i < minus.size() && isJolly; i++)
-   if(minus[i] != i + 1)
-    isJolly = false;
-  // ¿é¥X§PÂ_µ²ªG
-  if(isJolly)
-   cout << "Jolly" << endl;
-  else
-   cout << "Not jolly" << endl;
-  // ÄÀ©ñ°O¾ĞÅé
-  delete [] data;
- }
-
- return 0;
+	bool isJolly; // å®£å‘Šä¸€å€‹ bool å€¼æ¸¬è©¦æ˜¯å¦ç‚º jolly jump
+	int dataNum, *data; 
+	vector<int> minus; // å®£å‘Šæ•´æ•¸å½¢å¼çš„é™£åˆ—åç‚º minus
+  
+	while(cin >> dataNum) { // ç´€éŒ„åºåˆ—é•·åº¦
+		data = new int [dataNum]; // åˆå§‹åŒ–é™£åˆ—
+		minus.clear(); // åˆå§‹åŒ–é™£åˆ—
+		isJolly = true; // å‡å®šä¸€é–‹å§‹ is jolly æ˜¯çœŸ
+		for(int d = 0; d < dataNum; d++)
+			cin >> data[d]; // å°‡æ•¸å­—é€å€‹è¼¸å…¥
+		for(int i = 1; i < dataNum; i++)
+			minus.push_back(abs(data[i] - data[i - 1])); // è¨ˆç®—ç›¸é„°äºŒå€¼çš„å·®ï¼Œä¸¦å°‡å·®è®Šæˆçµ•å°å€¼ã€‚
+		sort(minus.begin(), minus.end()); // ç”±å°åˆ°å¤§æ’åº
+  
+		for(int i = 0; i < minus.size() && isJolly; i++)
+			if(minus[i] != i + 1)
+ 				isJolly = false;
+		/* åˆ¤æ–·æ˜¯å¦ç‚º Jolly jumper */
+  
+		if(isJolly)
+			cout << "Jolly" << endl;
+		else
+			cout << "Not jolly" << endl;
+		/* è¼¸å‡ºåˆ¤æ–·çµæœ */
+  
+		delete [] data; // é‡‹æ”¾è¨˜æ†¶é«”
+	}
+	
+	return 0;
 }
