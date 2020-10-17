@@ -1,14 +1,13 @@
 https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=1753
 #include <iostream> /* */
 using namespace std; /* */
-int main()
+int main() /* */
 { 
   int n, s, d; /* 宣告整數 n，用來存取有幾筆資料。宣告整數 s ，用來紀錄兩數之和。宣告整數 d，用來紀錄兩數之差 */
   cin>>n;// 輸入有幾筆資料
   // 逐一處理每筆資料
   for(int i=0; i<n; i++)
   {
-    
     cin>>s>>d;// 輸入兩數之和、兩數之差
     // 如果兩數之和大於兩數之差，且 s+d 除以 2 的餘數是 0，且 s-d 除以 2 的餘數是 0，就是有可能的資料
     if(s>d && ((s+d)%2==0) && ((s-d)%2==0))
