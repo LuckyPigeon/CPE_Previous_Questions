@@ -32,7 +32,3 @@ int main()
  } //將 sum1 sum2 印出
 }
 
-“琩高┮Τ肈ヘの秆氮“
-https://jennaweng0621.pixnet.net/blog/post/403629785
-“琩高ㄤCPE肈ヘ“
-http://jennaweng0621.pixnet.net/blog/category/6372301
