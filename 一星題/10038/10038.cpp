@@ -23,13 +23,13 @@ int main() {
 		for(int i = 0; i < minus.size() && isJolly; i++)
 			if(minus[i] != i + 1)
  				isJolly = false;
-		// 判斷是否為 Jolly jumper
+		/* 判斷是否為 Jolly jumper */
   
 		if(isJolly)
 			cout << "Jolly" << endl;
 		else
 			cout << "Not jolly" << endl;
-		// 輸出判斷結果
+		/* 輸出判斷結果 */
   
 		delete [] data; // 釋放記憶體
 	}
