@@ -3,12 +3,7 @@ https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&probl
 using namespace std;
 int main()
 { 
-  /* 
-    宣告整數 n ，用來存取有幾筆資料
-    宣告整數 s ，用來紀錄兩數之和
-    宣告整數 d ，用來紀錄兩數之差
-  /*
-  int n, s, d; 
+  int n, s, d; /* 宣告整數 n ，用來存取有幾筆資料。宣告整數 s ，用來紀錄兩數之和。宣告整數 d ，用來紀錄兩數之差 */
   cin>>n;// 輸入有幾筆資料
   // 逐一處理每筆資料
   for(int i=0; i<n; i++)
