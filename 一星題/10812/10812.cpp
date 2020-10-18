@@ -1,7 +1,7 @@
 https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=1753
-#include <iostream> /* */
-using namespace std; /* */
-int main() /* */
+#include <iostream> 
+using namespace std; 
+int main() 
 { 
   /* 
     宣告整數 n，用來存取有幾筆資料。
