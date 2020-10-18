@@ -1,5 +1,3 @@
-https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=1350
-
 #include <iostream> 
 #include <string> 
 using namespace std; 
