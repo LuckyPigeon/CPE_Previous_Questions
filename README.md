@@ -1,6 +1,6 @@
 # CPE_Previous_Questions
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 CPE 的歷屆考題 📃📃📃
@@ -72,6 +72,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/Lisa304"><img src="https://avatars2.githubusercontent.com/u/61690790?v=4" width="100px;" alt=""/><br /><sub><b>Lisa304</b></sub></a><br /><a href="https://github.com/LuckyPigeon/CPE_Previous_Questions/commits?author=Lisa304" title="Code">💻</a></td>
+    <td align="center"><a href="http://fanlan1210.github.io"><img src="https://avatars1.githubusercontent.com/u/22187384?v=4" width="100px;" alt=""/><br /><sub><b>Fanlan</b></sub></a><br /><a href="https://github.com/LuckyPigeon/CPE_Previous_Questions/commits?author=fanlan1210" title="Code">💻</a></td>
   </tr>
 </table>
 
