@@ -25,7 +25,7 @@ int main()
    cin>>d;
    num.push_back(d); // 用 push_back() 把值從 vector 的最後一個位置插入
   }
-  sort(num.begin(), num.end()); // 由小到大排序， begin()為第一個位置， end() 為末端的後一個位置
+  sort(num.begin(), num.end()); // 由小到大排序，begin() 為第一個位置，end() 為末端的後一個位置
   int mid=num[k/2]; // 取中間值，在中間走到每個點的距離和必定是最短的
   int sum=0; // 不同的case，每次都要歸零 sum
   for(int i=0;i<k;i++)
