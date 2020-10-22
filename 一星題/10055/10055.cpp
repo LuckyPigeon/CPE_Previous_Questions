@@ -4,15 +4,10 @@ https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_
 using namespace std;
 int main()
 {
-  long long int Hashmat, opponent;
-  while(cin>>Hashmat>>opponent)
+  long long int Hashmat, opponent; // å®£å‘Šå…©å€‹ longlong int çš„è®Šæ•¸ Hashmat , opponent
+  while(cin>>Hashmat>>opponent)  // ç•¶è¼¸å…¥å…©å€‹è®Šæ•¸å°±åŸ·è¡Œ while è¿´åœˆ
   {
-    cout<<abs(Hashmat-opponent)<<endl;
+    cout<<abs(Hashmat-opponent)<<endl; // è¼¸å‡º Hashmat , opponent ç›¸æ¸›çš„å€¼ï¼Œåš abs function å–çµ•å°å€¼
   }
+  return 0;
 }
-
-
-¡°¬d¸ß©Ò¦³ÃD¥Ø¤Î¸Ñµª¦p¤U¡°
-https://jennaweng0621.pixnet.net/blog/post/403629785-CPE%E9%A1%8C%E7%9B%AE%E7%9B%AE%E9%8C%84%E5%8F%8A%E8%A7%A3%E7%AD%94
-¡°¬d¸ß¨ä¥LCPEÃD¥Ø¦p¤U¡°
-http://jennaweng0621.pixnet.net/blog/category/6372301
