@@ -23,7 +23,7 @@ int main() {
   else {                            // 若 n 為 1 ， 進入 for 迴圈
    for(int i = 0; i < Cnt; ++i)     // 從 i = 0 開始 ， 且進入迴圈前 i 需先 + 1 ， 判斷 i + 1 是否小於 Cnt 後方可繼續執行迴圈  
     cout << arr[i] << " ";          // 輸出 陣列 arr 的第 i 個元素和空格
-   cout << "1" << endl;             // for迴圈結束後輸出 1 
+   cout << "1" << endl;             // for 迴圈結束後輸出 1 
   }
  }
  return 0;
