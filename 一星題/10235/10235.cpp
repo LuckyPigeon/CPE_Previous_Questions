@@ -38,7 +38,7 @@ int main()
    int reverseN = reverse(N); // 反轉 N 的質,並存入 reverseN
    if( reverseN!=N && !composite[reverseN] ) // 如果反轉後的 reverseN 與反轉前的 N 不相等,並且 reverseN 為質數,則輸出 is emirp
      cout << N << " is emirp." << endl;
-   else // 
+   else // 否則輸出 
     cout << N << " is prime." << endl;
   }
  return 0;
