@@ -15,14 +15,14 @@ int reverse( int a )
 }
 int main()
 {
- bool composite[LIMIT+5] = {true, true};
-  for( int i = 2; i <= LIMIT ; ++i )
+ bool composite[LIMIT+5] = {true, true}; // true 代表非質數，而 0 跟 1 不是質數
+  for( int i = 2; i <= LIMIT ; ++i ) // 先建表，把上限之內的數字都分辨好
  {
-   if( !composite[i] )
+   if( !composite[i] ) // 若 i 是質數
   {
      for( int j = i+i ; j <= LIMIT ; j += i )
    {
-      composite[j] = true;
+      composite[j] = true; // 把 i 的倍數都設為非質數
      }
    }
   }
@@ -34,7 +34,7 @@ int main()
     cout << N << " is not prime." << endl;
     continue;
    }
-   int reverseN = reverse(N);
+   int reverseN = reverse(N); // 將輸入反轉
    if( reverseN!=N && !composite[reverseN] )
      cout << N << " is emirp." << endl;
    else
