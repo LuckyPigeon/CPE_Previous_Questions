@@ -1,4 +1,3 @@
-https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1724
 #include <iostream>
 using namespace std;
 int main()
@@ -7,19 +6,14 @@ int main()
  cin>>T;
  while(T--)
  {
-  cin>>a>>b;
-  time++;
+  cin>>a>>b; // è®€å…¥å€é–“
+  time++; // case æ•¸ +1
   int sum=0;
   for(a;a<=b;a++)
   {
    if(a%2==1)
-    sum+=a;
+    sum+=a; // å¦‚æœæ˜¯å¥‡æ•¸ï¼Œå°±åŠ é€² sum
   }
   cout<<"Case "<<time<<": "<<sum<<endl;
  }
 }
-
-¡°¬d¸ß©Ò¦³ÃD¥Ø¤Î¸Ñµª¦p¤U¡°
-https://jennaweng0621.pixnet.net/blog/post/403629785
-¡°¬d¸ß¨ä¥LCPEÃD¥Ø¦p¤U¡°
-http://jennaweng0621.pixnet.net/blog/category/6372301
