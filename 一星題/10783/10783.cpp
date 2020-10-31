@@ -1,4 +1,3 @@
-// https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1724
 #include <iostream>
 using namespace std;
 int main()
@@ -18,10 +17,3 @@ int main()
   cout<<"Case "<<time<<": "<<sum<<endl;
  }
 }
-
-/*
-“琩高┮Τ肈ヘの秆氮“
-https://jennaweng0621.pixnet.net/blog/post/403629785
-“琩高ㄤCPE肈ヘ“
-http://jennaweng0621.pixnet.net/blog/category/6372301
-*/
