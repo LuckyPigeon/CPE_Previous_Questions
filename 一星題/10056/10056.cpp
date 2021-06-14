@@ -5,6 +5,21 @@ https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_
 #include <iomanip>
 using namespace std;
 
+/*
+ * 題目說明
+ * 一個遊戲有幾位玩家，則輪流骰骰子若成立該遊戲條件就獲勝，遊戲輪流進行
+ * 當有人達到條件獲勝後遊戲就停止
+ * 這題必須算出第 i 個玩家獲勝的機率
+ * 
+ * Input:
+ *      先給一個整數 S ，代表有幾筆測資
+ *      每個測資有一個整數 N ，代表遊戲有幾位玩家
+ *      接著是投一次骰子獲勝的機率 p
+ * 
+ * Output:
+ *      輸出每筆測資該玩家獲勝的機率（精準度到小數點後第四位)
+ */
+
 int main() {
  int num;       // 代表測資數量
  cin >> num;    // 讀取測資數
