@@ -18,8 +18,10 @@ using namespace std;
 */
 
 int main() {
- int dataNum, day, political, *noWork, ans; // 分別為 測資數量、該筆測資需要模擬的總天數、政黨數、指標陣列（用來儲存政黨的間隔日）、答案
- bool *eachDays;    // 紀錄各個天數的罷會狀態
+ int dataNum, day, political, *noWork, ans; 
+ // 分別為 測資數量、該筆測資需要模擬的總天數、政黨數、指標(稍後會用來建立動態陣列，用來儲存政黨的間隔日）、答案
+ 
+ bool *eachDays;    // 紀錄各個天數的罷會狀態(稍後會用來建立動態陣列）
 
  cin >> dataNum; // 讀取測資數量
  for(int d = 0; d < dataNum; d++) { // 讀取 dataNum 個 （ 迴圈內處理每筆個資 ）
